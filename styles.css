@@ -1,0 +1,87 @@
+.card {
+  width: 300px;
+  background-image: linear-gradient(180deg, rgb(238, 234, 184), #fff, rgb(238, 234, 184));
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.profile-picture {
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.title {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 5px 1px 2px #ccc, 0 0 1em white, 0 0 0.2em blue;
+}
+
+.description {
+  font-size: 14px;
+  color: #444;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.social-Network {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-Network a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-Network a.linkedin {
+  color: #0077b5;
+}
+
+.social-Network a.twitter {
+  color: #1DA1F2;
+}
+
+.social-Network a.github {
+  color: #333;
+}
+
+.social-Network a:hover {
+  color: #000;
+  transition: 0.5s;
+}
+
+div .btn {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.btn-info {
+  width: 115px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-info:hover {
+  background-color: #464646;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
