@@ -1,11 +1,12 @@
 .card {
-  width: 300px;
+  width: 350px;
   background-image: linear-gradient(180deg, rgb(238, 234, 184), #fff, rgb(238, 234, 184));
   border: 1px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   padding: 20px;
   box-shadow: 5px 5px 5px #ccc;
+  transition: all 1s;
 }
 
 .profile-picture {
@@ -13,6 +14,7 @@
   border-radius: 50%;
   display: block;
   margin-bottom: 15px;
+  margin: auto;
 }
 
 .name {
@@ -37,51 +39,43 @@
 }
 
 .social-Network {
-  list-style: none;
-  padding: 0;
+  padding: 10px 0;
   text-align: center;
+  height: 60px;
+  width: 100%;
+}
+
+.social-Network div {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+}
+
+.social-Network button {
+  width: 85px;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .social-Network a {
   text-decoration: none;
-  margin: 0 10px;
-}
-
-.social-Network a.linkedin {
-  color: #0077b5;
-}
-
-.social-Network a.twitter {
-  color: #1DA1F2;
-}
-
-.social-Network a.github {
-  color: #333;
-}
-
-.social-Network a:hover {
-  color: #000;
-  transition: 0.5s;
-}
-
-div .btn {
   width: 100%;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.btn-info {
-  width: 115px;
-  height: 40px;
-  background-color: #fff;
-  border: 1px solid #000;
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-info:hover {
-  background-color: #464646;
+  height: 100%;
   color: #fff;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.social-Network button:hover {
+  width: 90px;
+  height: 38px;
+  position: relative;
+  bottom: 5px;
+  transition: all 0.3s;
 }
