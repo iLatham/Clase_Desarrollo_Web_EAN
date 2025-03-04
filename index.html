@@ -12,9 +12,9 @@
   <section>
     <div class="card">
       <img src="media/img1.jpeg" alt="Foto de Perfil" class="profile-picture">
-      <h1 class="name">Nicolás Garnica</h1>
-      <h2 class="title">Perfil profesional</h2>
-      <p class="description">
+      <h1 class="name" id="name">Nicolás Garnica</h1>
+      <h2 class="title" id="title">Perfil profesional</h2>
+      <p class="description" id="description">
         Estudiante del programa Ingeniería de Sistemas de la Universidad EAN. Actualmente 
         labora como lider funcional de un aplicativo del Ministerio de Educación Nacional
       </p>
@@ -23,9 +23,14 @@
         <div><button><a href="https://www.linkedin.com/in/nicol%C3%A1s-esteban-garnica-herrera-5878aa165/" class="linkedin" target="_blank">LinkedIn</a></button></div>
         <div><button><a href="https://x.com/NicoEsteban02" class="twitter" target="_blank">Twitter</a></button></div>
         <div><button><a href="https://github.com/iLatham" class="github" target="_blank">GitHub</a></button></div>
-      </div>  
+      </div>
+
+      <div class="btn-update">
+        <button type="button" class="update" id="update" onclick="actualizarTexto()">Actualizar</button>
+      </div>
     </div>
   </section>
 
+  <script src="script.js"></script>
 </body>
 </html>

@@ -79,3 +79,26 @@
   bottom: 5px;
   transition: all 0.3s;
 }
+
+.btn-update {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-update button {
+  width: 110px;
+  height: 35px;
+  background-color: #1b98eb;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #1b98eb;  
+  border-radius: 7px;
+  transition: all 0.3s;
+}
+
+.btn-update button:hover {
+  background-color: #0072be;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #0072be;
+}
